@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.head {
+    background-color: coral;
+}
+
+.heading {
+    text-align: center;
+    font-size: 500px;
+    background-color: rgb(57, 180, 98);
+    text-shadow: darkblue 2px 3px 3px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#table1,
+.tdtable1 {
+    border: brown 2px solid;
+    padding: 25px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    color: brown;
+    background-color: chartreuse;
+    transition: width 0.5s;
+    text-align: center;
+}
+
+div:hover {
+    width: 100%;
+}

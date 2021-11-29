@@ -1,0 +1,10 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.genre {
+    border: 1px solid;
+    padding: 5px;
+    color: brown;
+}

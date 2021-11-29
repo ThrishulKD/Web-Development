@@ -1,0 +1,43 @@
+                * {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                .heading {
+                    background-color: aquamarine;
+                    color: blue;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 50px;
+                    font font-style: italic;
+                    border-radius: 5px;
+                    text-align: center;
+                    text-shadow: 2px 4px 5px tomato;
+                    text-transform: lowercase;
+                    transform: skew(10deg, 10deg);
+                }
+                
+                #table1,
+                .tdtable1 {
+                    transform: skew(10deg, 10deg);
+                    margin-left: 45%;
+                    border: 2px solid;
+                    padding: 20px;
+                    font-family: 'Times New Roman', Times, serif;
+                    color: rgb(5, 7, 4);
+                    -size: 50px;
+                    font-style: italic;
+                    text-align: center;
+                    text-shadow: 2px 4px 5px tomato;
+                }
+                
+                div {
+                    width: 100px;
+                    height: 100px;
+                    background-color: blueviolet;
+                    transition: width 9s;
+                    transition-delay: 1s;
+                }
+                
+                div:hover {
+                    width: 100%;
+                }
